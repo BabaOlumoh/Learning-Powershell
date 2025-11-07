@@ -16,3 +16,14 @@ if(Test-Path -Path $filePath){
 }else{
     Write-Output "File '$filePath' does not exist"
 }
+
+
+if($firstName -eq 'Tim'){
+    Write-Output "My name is Tim"
+}elseif($firstName -eq 'Steve'){
+    Write-Output "My name is Steve"
+}elseif($firstName -eq 'Richard'){
+    Write-Output "My name is Richard"
+}else{
+    Write-Output "I dont know my name!"
+}
