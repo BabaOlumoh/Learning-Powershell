@@ -6,7 +6,7 @@ while((get-date).Minute -eq 26){
     Get-Date
 }
 
-while(true){
+while($true){
     Write-Output "Welcome"
     Write-Output "Enter q to Quit"
     $input = Read-Host -Prompt "Please enter a phrase"
